@@ -1,7 +1,8 @@
-#chào anh em!
+## Git - Ba trạng thái Committed Staged Modified
+![Image](https://freetuts.net/upload/tut_post/images/2017/10/12/1079/ba-trang-thai-cua-git.png)
 
 
-## Welcome to GitHub Pages
+## Welcome to GitHub Pages 
 
 You can use the [editor on GitHub](https://github.com/MT-thanh-MT/thanhmxph18759.github.io/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
 
