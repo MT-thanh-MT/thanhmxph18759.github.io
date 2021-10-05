@@ -4,51 +4,47 @@
 -Có 2 nơi lữ trữ các file khi chúng được liên kết đến 1 remote repository trên github:
 - Local Repository: Tất cả các thay đổi đã được đánh dấu (commit) sẽ được lưu ở local repo cho đến khi chúng được đẩy (push) lên remote repo. Các thay đổi này chỉ tồn tại ở trên local của người dùng ko visible với những người khác.
 
-![Image](git_status.png)
-![Image](git_add.png)
+
+
 
 --
 
 - Remote Repository: Các thay đổi đã được commit tại local repo sẽ được cập nhật lên remote repo. Lúc này những người làm việc chung cùng repo đó có thể cập nhật/kéo (pull) các thay đổi đó về máy của mình
 
+
+
+Tất cả các file ở Local Repo đều ở một trong 2 trạng thái:
+
+Untracked Files: Các file này dù có thay đổi / thêm / xoá thì git cũng ko quan tâm, vì nó ko nằm trong danh sách theo dõi của nó.
+Khi chúng ta sử dụng lệnh “git status” thì các file này sẽ có title là “Untracked files”
+
+![Image](git_status.png)
+
+
+Tracked Files: Những files đã được thêm vào danh sách theo dõi của git được gọi là Tracked Files, những file này khi chúng ta thay đổi / thêm / xoá thì git sẽ nhận biết được điều đó và lưu các thay đổi này lại theo yêu cầu của chúng ta.
+Trong các Tracked Files được git theo dõi lại có các trạng thái sau:
+
+Modified Files: Các file bị THAY ĐỔI
+==> Các files bị thay đổi sẽ có title “Changes not staged for commit” khi chúng ta “git status”
+
+![image](https://i0.wp.com/hoangvancong.com/wp-content/uploads/2020/05/hoangvancong_git_modified_file.jpg?resize=600%2C85&ssl=1)
+
+
+Staged Files: Các file bị THAY ĐỔI đã được ĐÁNH DẤU để commit
+==> Các files bị thay đổi sẽ có title “Changes to be committed” khi chúng ta “git status”
+
+![Image](git_add.png)
+
+
+Unmodified Files: Khi các file đã được ĐÁNH DẤU sau khi được COMMIT sẽ lại trở về trạng thái ko thay đổi.
+(Do các thay đổi này sau khi được commit sẽ được lưu vào thư mục .git, và chúng ta có thể restore về trạng thái đó bất cứ lúc nào)
+==> Lúc này khi chúng ta “git status” sẽ không còn thấy các file này nữa.
 ![Image](git_commit.png)
 ![Image](git_push.png)
 
 
-## Welcome to GitHub Pages 
 
-You can use the [editor on GitHub](https://github.com/MT-thanh-MT/thanhmxph18759.github.io/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/MT-thanh-MT/thanhmxph18759.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+nguồn : [[Git-03] Các trạng thái và câu lệnh cơ bản trong git](http://hoangvancong.com/2020/05/01/git-03-cac-trang-thai-va-cau-lenh-co-ban-trong-git/)
