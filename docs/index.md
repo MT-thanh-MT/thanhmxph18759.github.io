@@ -1,5 +1,5 @@
-## Git - Ba trạng thái Committed Staged Modified
-![Image](https://freetuts.net/upload/tut_post/images/2017/10/12/1079/ba-trang-thai-cua-git.png)
+## Các trạng thái của files trong git repository
+![Image](https://i2.wp.com/hoangvancong.com/wp-content/uploads/2020/05/hoangvancong_trangthai_git.jpg?resize=633%2C232&ssl=1)
 
 
 ## Welcome to GitHub Pages 
