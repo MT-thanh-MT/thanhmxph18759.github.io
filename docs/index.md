@@ -3,9 +3,14 @@
 
 -Có 2 nơi lữ trữ các file khi chúng được liên kết đến 1 remote repository trên github:
 - Local Repository: Tất cả các thay đổi đã được đánh dấu (commit) sẽ được lưu ở local repo cho đến khi chúng được đẩy (push) lên remote repo. Các thay đổi này chỉ tồn tại ở trên local của người dùng ko visible với những người khác.
+
 ![Image](git_status.png)
 ![Image](git_add.png)
+
+--
+
 - Remote Repository: Các thay đổi đã được commit tại local repo sẽ được cập nhật lên remote repo. Lúc này những người làm việc chung cùng repo đó có thể cập nhật/kéo (pull) các thay đổi đó về máy của mình
+
 ![Image](git_commit.png)
 ![Image](git_push.png)
 
