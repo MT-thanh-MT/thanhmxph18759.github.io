@@ -1,4 +1,4 @@
-## Các trạng thái của files trong git repository
+#                                  Các trạng thái của files trong git repository
 ![Image](https://i2.wp.com/hoangvancong.com/wp-content/uploads/2020/05/hoangvancong_trangthai_git.jpg?resize=633%2C232&ssl=1)
 
 
