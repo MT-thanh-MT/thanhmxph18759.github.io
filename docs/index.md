@@ -1,6 +1,12 @@
 #                                  Các trạng thái của files trong git repository
 ![Image](https://i2.wp.com/hoangvancong.com/wp-content/uploads/2020/05/hoangvancong_trangthai_git.jpg?resize=633%2C232&ssl=1)
 
+-Có 2 nơi lữ trữ các file khi chúng được liên kết đến 1 remote repository trên github:
+- Local Repository: Tất cả các thay đổi đã được đánh dấu (commit) sẽ được lưu ở local repo cho đến khi chúng được đẩy (push) lên remote repo. Các thay đổi này chỉ tồn tại ở trên local của người dùng ko visible với những người khác.
+![Image]()
+- Remote Repository: Các thay đổi đã được commit tại local repo sẽ được cập nhật lên remote repo. Lúc này những người làm việc chung cùng repo đó có thể cập nhật/kéo (pull) các thay đổi đó về máy của mình
+![Image]()
+
 
 ## Welcome to GitHub Pages 
 
